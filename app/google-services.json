@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "711119339534",
+    "project_id": "flyy-269c6",
+    "storage_bucket": "flyy-269c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711119339534:android:b5e0e0ca22f70f3f207c5f",
+        "android_client_info": {
+          "package_name": "com.example.fly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711119339534-6pa84sac8gpt6m5ofdlq3b1nagvo7iv4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy1xA4cWT1-Q2nLFamZFN-w5xNcdD4cz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711119339534-6pa84sac8gpt6m5ofdlq3b1nagvo7iv4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

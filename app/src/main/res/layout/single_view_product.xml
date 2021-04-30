@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E4E3E3"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/signle_image"
+                android:layout_width="92dp"
+                android:layout_height="66dp"
+                android:layout_marginTop="10sp"
+                android:padding="4dp"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+
+            <TextView
+                android:id="@+id/category_single"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/signle_image"
+                android:text="Apple"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+
+
+                />
+
+            <TextView
+                android:id="@+id/txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/category_single"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="-25dp"
+                android:layout_toRightOf="@id/signle_image"
+                android:text="Model"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/model_single"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_below="@id/category_single"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="-23dp"
+                android:layout_toRightOf="@id/signle_image"
+                android:text="HUAWEI Mate"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/model_single"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="1dp"
+                android:layout_toRightOf="@id/signle_image"
+                android:text="Price"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="@color/bg"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/price_single"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/model_single"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="6dp"
+                android:layout_toRightOf="@id/txt1"
+                android:text="5.9 Inch, 8 GB"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="@color/bg"
+                android:textSize="15sp"
+                />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
